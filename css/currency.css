@@ -1,0 +1,166 @@
+@font-face {
+     font-family: "Plumb Condensed";
+     src: url("../fonts/plumbcondensed-webfont.ttf");
+}
+
+@font-face {
+    font-family: "Myriad Pro Condensed";
+    src: url("../fonts/MyriadPro-Cond.otf");
+}
+
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url("../fonts/MyriadPro-Regular.eot");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.currency-box {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.currency-box__panel {
+    margin-bottom: 20px;
+}
+
+.exchange-rates-title {
+    border-bottom: 1px dotted #b0b0b0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Plumb Condensed", sans-serif;
+}
+
+.exchange-rates-content {
+}
+
+.exchange-rates-content__block {
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 430px;
+    vertical-align: top;
+    margin-left: 25px;
+    border-radius: 5px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.exchange-rates-content__block-title {
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+    background: #257dba;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.exchange-rates-content__block-content {
+    border: 1px solid red;
+}
+
+.course-day {
+    padding: 20px 0;
+    margin-top: 40px;
+    font-family: "Myriad Pro Regular", sans-serif;
+    color: #000;
+    padding-left: 100px;
+}
+
+.course-rate {
+    width: 750px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+
+
+
+.course-rate__th {
+    font-size: 20px;
+    padding: 20px;
+    background: #00679b;
+    color: #fff;
+    border-collapse: collapse;
+    font-family: "Myriad Pro Condensed", sans-serif;
+}
+
+.course-rate__tr {
+    border-top: none;
+}
+
+.course-rate__td {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+    border-collapse: collapse;
+    border-right: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    color: #000;
+    font-family: "Myriad Pro Regular", sans-serif;
+    font-size: 12px;
+}
+
+.course-rate__td:first-child {
+    border-left: 1px solid #ececec;
+}
+
+.name-valute {
+    font-size: 23px;
+    color: #D50D81;
+}
+
+.cnt-valute {
+    font-weight: bold;
+    font-size: 23px;
+    color: #08c;
+}
+
+.course-bank {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.course-bank-th {
+    text-align: center;
+    padding: 20px;
+    background: #00679b;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Myriad Pro Condensed", sans-serif;
+}
+
+.course-border {
+    border-bottom: 1px solid;
+}
+
+.course-bank-tr {
+    border: 1px solid;
+}
+
+.course-bank-td {
+    border: 1px solid #ececec;
+    padding: 20px;
+    text-align: center;
+    font-family: "Myriad Pro Regular", sans-serif;
+
+}
+
+.view-bank-tlf {
+    font-size: 13px;
+}
+
+.bank-name {
+    color: #D50D81;
+
+}
